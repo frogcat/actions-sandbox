@@ -18,5 +18,5 @@ const find = function (name) {
 
 module.exports = {
   resolve: resolve,
-  find: find
+  find: find,
 };
