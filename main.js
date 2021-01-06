@@ -9,7 +9,7 @@ const resolve = function (code) {
 
 const find = function (name) {
   if (!name) return undefined;
-  const lc = name.toLowerCase();
+  const lc = name.toUpperCase();
   return Object.keys(jisx0401).find((code) => {
     const values = Object.values(jisx0401[code]).map((a) => a.toLowerCase());
     return values.indexOf(lc) !== -1;
