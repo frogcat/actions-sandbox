@@ -1,0 +1,22 @@
+{
+  "name": "actions-sandbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "tape test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frogcat/actions-sandbox.git"
+  },
+  "author": "frogcat",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/frogcat/actions-sandbox/issues"
+  },
+  "homepage": "https://github.com/frogcat/actions-sandbox#readme",
+  "devDependencies": {
+    "tape": "^5.1.1"
+  }
+}
